@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("home.jpg");
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+}
+
+nav ul {
+  margin-left: auto;
+}
+
+#brand {
+  font-weight: 900;
+  font-size: xx-large;
+  color: darkviolet;
+}
+nav ul li {
+  margin-right: 75px;
+  font-size: large;
+}
+
+nav ul li a {
+  color: Black !important;
+}
+nav ul li a.active {
+  color: darkcyan !important;
+  font-weight: bolder;
+}
+nav ul li a:hover {
+  color: blue !important;
+  font-weight: bolder;
+}
+
+section {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: aliceblue;
+  padding: 20px 30px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 2;
+}
+#head,
+p {
+  font-size: x-large;
+  text-align: center;
+}
+#email,
+#mnum {
+  color: red;
+  font-weight: 900;
+}
+.social_media {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 40%;
+}
+.social_media a {
+  color: black !important;
+
+  transition: all 2s;
+}
+.social_media a:hover {
+  transform: scale(2);
+  color: red !important;
+}

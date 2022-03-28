@@ -1,0 +1,35 @@
+body {
+  background-image: url("home.jpg");
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+}
+
+nav ul {
+  margin-left: auto;
+}
+
+#brand {
+  font-weight: 900;
+  font-size: xx-large;
+  color: darkviolet;
+}
+nav ul li {
+  margin-right: 75px;
+  font-size: large;
+}
+
+nav ul li a {
+  color: Black !important;
+}
+nav ul li a.active {
+  color: darkcyan !important;
+  font-weight: bolder;
+}
+nav ul li a:hover {
+  color: blue !important;
+  font-weight: bolder;
+}
+img {
+  width: auto;
+}

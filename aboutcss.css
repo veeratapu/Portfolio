@@ -1,0 +1,83 @@
+body {
+  background-image: url("home.jpg");
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+}
+
+nav ul {
+  margin-left: auto;
+}
+
+#brand {
+  font-weight: 900;
+  font-size: xx-large;
+  color: darkviolet;
+}
+nav ul li {
+  margin-right: 75px;
+  font-size: large;
+}
+
+nav ul li a {
+  color: Black !important;
+}
+nav ul li a.active {
+  color: darkcyan !important;
+  font-weight: bolder;
+}
+nav ul li a:hover {
+  color: blue !important;
+  font-weight: bolder;
+}
+
+section {
+  margin-top: 5%;
+
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+}
+.about {
+  background-color: pink;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 2%;
+  border-radius: 20px;
+  box-shadow: 3px 3px 2px black;
+  transition: all 2s;
+}
+.about:hover {
+  transform: scale(1.1);
+}
+
+.myaccordion {
+  background-color: yellow;
+  border-radius: 20px;
+  box-shadow: 3px 3px 2px black;
+}
+
+footer {
+  background-color: black;
+  padding-bottom: 0.5%;
+  padding-top: 1%;
+}
+
+footer ul {
+  list-style-type: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+
+#link1,
+#link2 {
+  text-decoration: none;
+  color: white;
+}
